@@ -1,0 +1,43 @@
+.admin-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  overflow-x: visible;
+}
+
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 960px;
+  padding: 0 1rem;
+  overflow-x: visible;
+  margin: 0 auto;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 1rem;
+}
+
+.add-button {
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1rem;
+  }
+
+  .add-button {
+    align-self: flex-end;
+  }
+}

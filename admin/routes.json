@@ -1,7 +1,7 @@
 {
   "admin.app.example": {
-    "component": "AdminExample",
-    "path": "/admin/app/example"
+    "component": "fortuneCookieAdmin",
+    "path": "/admin/app/fortune"
   },
   "admin.app.example-detail": {
     "component": "AdminExampleDetail",
